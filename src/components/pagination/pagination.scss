@@ -1,0 +1,20 @@
+.page__wrapper {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    .page {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background: #FFFFFF;
+        border: 1px solid #E1E1E1;
+        border-radius: 4px 4px 4px 4px;
+        padding-top: 4px;
+        &__current {
+            background: #0066CC;
+            color: #FFFFFF;
+        }
+    }
+}

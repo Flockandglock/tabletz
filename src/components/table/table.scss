@@ -1,0 +1,47 @@
+@import '../../variables';
+
+.table {
+    margin: 0 auto;
+    max-width: 850px;
+   
+    &__wrapper {
+        margin-top: 85px;
+        max-width: 883px;
+        
+    }
+    &__head {
+        display: flex;
+        justify-content: space-between;
+        height: 56px;
+        padding: 11px 85px 13px 31px;
+        color: $title;
+        font-weight: 600;
+        font-size: 16px;
+        background: #F5F5F7;
+        border: 1px solid #E1E1E1;
+        border-radius: 4px 4px 4px 4px;
+    }
+    &__ul {
+        margin-top: 0;
+        padding-left: 0;
+    }
+    .list-item {
+        display: flex;
+        justify-content: space-between;
+        font-style: normal;
+        list-style-type: none;
+        font-size: 16px;
+        color: $text-main;
+        max-width: 883px;
+        height: 56px;
+        padding: 11px 31px 13px 0px;
+        border-bottom: 1px solid #E1E1E1;
+        border-right: 1px solid #E1E1E1;
+        border-left: 1px solid #E1E1E1;
+        border-radius: 4px 4px 4px 4px;
+       p {
+        width: 150px;
+       } 
+    }
+}
+

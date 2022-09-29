@@ -1,0 +1,26 @@
+.filter {
+    margin-top: 40px;
+    &__input {
+        width: 222px;
+        height: 36px;
+        background: #FFFFFF;
+        border: 1px solid #b9b7b7;
+        border-radius: 4px 4px 4px 4px;
+    }
+    &__column {
+        width: 122px;
+        height: 40px;
+        margin-left: 5px;
+        background: #ebe9e9;
+        border: 1px solid #b9b7b7;
+        border-radius: 4px 4px 4px 4px;
+    }
+    &__type {
+        width: 122px;
+        height: 40px;
+        margin-left: 5px;
+        background: #ebe9e9;
+        border: 1px solid #b9b7b7;
+        border-radius: 4px 4px 4px 4px;
+    }
+}
